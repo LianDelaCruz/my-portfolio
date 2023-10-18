@@ -1,12 +1,15 @@
-const Header = () => {
+import styles from "./Header.module.css";
+import PropTypes from "prop-types";
+
+const Header = ({ title }) => {
   return (
-    <header>
-      {
-        <div>
-          <h1>This is the header</h1>
-        </div>
-      }
+    <header className={styles.header}>
+      <h1>{title}</h1>
     </header>
   );
+};
+
+Header.propTypes = {
+  title: PropTypes.string.isRequired,
 };
 export default Header;
