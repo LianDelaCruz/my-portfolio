@@ -8,13 +8,13 @@ import NotFoundPage from "./pages/NotFoundPage";
 const App = () => {
   return (
     <Router>
-      <Navigation />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectsPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <Navigation />
     </Router>
   );
 };

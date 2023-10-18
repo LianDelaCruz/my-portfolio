@@ -1,7 +1,9 @@
+import Header from "../components/Header";
+
 const ProjectsPage = () => {
   return (
     <div>
-      <h1>Product</h1>
+      <Header title="Projects Page" />
     </div>
   );
 };
