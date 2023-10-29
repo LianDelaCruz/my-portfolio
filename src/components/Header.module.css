@@ -7,9 +7,9 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("../assets/galaxyImage.jpg");
   background-size: cover;
   background-position: center;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .headerTitle {
